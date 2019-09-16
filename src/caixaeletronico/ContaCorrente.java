@@ -131,8 +131,19 @@ public class ContaCorrente {
         return true;       
         
     }
-    
+    public void extrato(){
+        System.out.println("Nome do cliente: "+ this.getNomeCliente());
+        System.out.println("Numero da conta: "+ this.getNumeroConta());
+        System.out.println("Numero da agencia: "+ this.getNumeroAgencia());
+        if(statusConta = true){
+            System.out.println("Status da conta: Ativa");
+        }else{
+            System.out.println("Status da conta: Inativa");
+                
+            }
+                System.out.println("Seu saldo eh: R$ "+ this.getSaldo());
+                System.out.println("Seus limite de cheque especial:  "+ this.getLimiteChequeEspecial());
 
-
-    
-}
+        }
+        
+    }
